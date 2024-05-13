@@ -1,0 +1,46 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card-header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.action-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.action {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
